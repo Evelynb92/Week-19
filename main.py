@@ -65,7 +65,7 @@ for info in countries:
         capital = info.find(class_="country-capital").text
         population = info.find(class_="country-population").text
         area = info.find(class_="country-area").text
-        print(f" Capital {capital}, Population: {population}, Area: {area}")
+        print(f" Capital: {capital}, Population: {population}, Area: {area}")
 
 
 #------------------------------------------------------------------
